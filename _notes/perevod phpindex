@@ -1,0 +1,103 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <title>Сайт визитка</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+<style>
+    @font-face{
+    font-family: "Ethnocentric";
+    src: url("font/ethnocentricrg.ttf");
+    }
+</style>                
+                
+</head> 
+    <header>
+        <nav class="nav">
+            <ul class="menu">
+            <li class="item"><a class="text" href="#about-me">Обо мне</a></li>
+            <li class="item"><a class="text" href="#education">Образование</a></li>
+            <li class="item"><a class="text" href="#activity">Сферы деятельности</a></li>
+            <li class="item"><a class="text" href="#hobby">Хобби</a></li>
+            <li class="item"><a class="text" href="#Developer">Как я становился разработчиком</a></li>
+            </ul>
+        </nav>
+    </header>
+<body class="body"> 
+    <script async src="../visit card/Index.js">
+        alert = ('U too')
+    </script>
+    <main class="main">
+        <h1 class="h font-face first-h">Илья Кожуковский</h1>
+        <img class="img" src="https://z-p3-scontent.frix8-1.fna.fbcdn.net/v/t39.30808-6/303172688_5318031974932105_2022047482643553916_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=oO8RSB5e3GwAX_0QnMA&tn=nBAumRwNPRyn3ECM&_nc_ht=z-p3-scontent.frix8-1.fna&oh=00_AT97ixMBP0dR_qY_5BmsX8ZTcn_BqmXCHIi6Q0YDA7r5kw&oe=6350AED4" alt="photo" width="750" height="800"></img>
+        <section class= "section text" id="about-me">
+        <h2 class="h"><a href="Рамен.html"><img class="photo" src="photo/narutomaki.png" alt="icon"></a>Обо мне</h2>
+            <ul>
+                <p>С детства занимаюсь спортом в возрасте 15 лет ушел с бальных танцев <br>
+                    и в возрасте 16 лет вернулся и начал уже заниматься единоборствами и легкой и тяжелой атлетикой.<br>
+                   На данный момент я работаю администратором на своей основной работе, так же в свободное время<br>
+                   работаю как тренер и организовываю для молодежи развлекательные и спортивные мероприятия. И я люблю Рамен!</p>
+            </ul>
+        </section>
+        <section class= "section text other-h" id="education">
+        <h2 class="h"><a href="Рамен.html"><img class="photo" src="photo/narutomaki.png" alt="icon"></a>Образование</h2>
+            <ul>
+                <li>Среднее специальное (Предпринимательская деятельность)</li>
+                <li>Спортивный тренер категории "C"</li>
+                <li>Нутрициолог</li>
+            </ul>
+        </section>
+        <section class= "section text other-h" id="activity">
+        <h2 class="h"><a href="Рамен.html"><img class="photo" src="photo/narutomaki.png" alt="icon"></a>Сферы деятельности</h2>
+            <li>Розничная торговля</li>
+            <li>Спортивный тренер</li>
+            <li>Организатор мероприятий</li>
+
+        </section>
+        <section class= "section text other-h" id="hobby">
+            <h2 class="h"><a href="Рамен.html"><img class="photo" src="photo/narutomaki.png" alt="icon"></a>Хобби</h2>
+                <ul>
+                    <p>В свободное время по возможности стараюсь заниматься <strong>спортом</strong>, также в качестве отдыха выбираю <br>
+                        частенько поиграть в <strong>компьютерные</strong> игры или <strong>сериал</strong>.<br>
+                        Так же с если выходные не заняты соревнованиями или другими делами, тогда мы можем упасть на <br>
+                         кровать и посмотреть пару серий аниме.
+                        В последнее время я взял привычку забивать свободное <br>
+                        время разными <strong>курсами</strong> которые помогут мне достичь больших результатов в будущем. <br>
+                        Недавно закончил курсы нутрициология.<br>
+                        А вообще много времени уходит на развитие детей, так что почти что все из перечисленного является <br>
+                        моими интересами но времени на них у меня практически нету. </p>
+            </ul>
+        </section>
+        <section class= "section text other-h" id="Developer">
+            <h2 class="h"><a href="Рамен.html"><img class="photo" src="photo/narutomaki.png" alt="icon"></a>Как я становился разработчиком</h2>
+            <ul>
+                <p>Рассматривал данную сферу деятельности уже давно. Еще в подростковом возрасте я мечтал стать <br>
+                    <strong>IT специалистом</strong>. К сожалению в том возрасте мне казалось что это слишком сложная для меня <br>
+                    сфера деятельности. Но годы шли и в итоге спустя более 10 лет я решил попробовать.<br>
+                    Основной мотивацией послежили 2 вещи, это желание развивать собственную организацию и вторая это <br>
+                    иметь возможность сменить свою основную сферу деятельности.</p>
+            </ul>
+            <li>2010 году Задумался о профессии програмиста</li>
+            <li>1.04.2022. Первый опыт программирования на языке C#</li>
+            <li>19.09.2022. Начал осваивать Web разработку</li>
+        </section>
+    </main> 
+    <footer class="text">
+        <hr>
+        <nav class="menu">
+        <br>
+        <ul class="footer">
+        <li><a class="text" target="_blank" href="https://www.facebook.com/ilja.kozukovskis/">facebook</a></li><br>
+        <li><a class="text" target="_blank" href="https://www.instagram.com/ilja.mor/">instagram</a></li>
+        </ul>
+        <ul class="text-footer">
+        <p>Тел: 29427994</p>
+        <p>Адрес: Латвия, Рига</p>
+        </ul>
+    </nav>
+    </footer> 
+</body> 
+</html>
